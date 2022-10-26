@@ -1,0 +1,16 @@
+Package: gmaR
+Type: Package
+Title: A R Package for Generarion Mean Analysis in Plant Breeding
+Version: 0.0.0.9000
+Author@R: person("Ogunsanya", "James", email = "oyindamolajames@gmail.com",
+  role = c("aut", "cre"))
+BugReports: https://github.com/Oyindamolajames/genR/issues 
+Maintainer: Ogunsaya James <oyindamolajames@gmail.com>
+Description: A statistical tool for analysing Generation Mean in Plant Breeding.
+   genR fuctionalities incldes A, B, C, and D Scaling Tests, Joint Scaling Test, 
+   Six parameter model, Heritability, Hetorosis.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr (>= 1.0.9)
+
