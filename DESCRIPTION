@@ -2,7 +2,7 @@ Package: gmaR
 Type: Package
 Title: A R Package for Generarion Mean Analysis in Plant Breeding
 Version: 0.0.0.9000
-Author@R: person("Ogunsanya", "James", email = "oyindamolajames@gmail.com",
+Author: person("Ogunsanya", "James", email = "oyindamolajames@gmail.com",
   role = c("aut", "cre"))
 BugReports: https://github.com/Oyindamolajames/genR/issues 
 Maintainer: Ogunsaya James <oyindamolajames@gmail.com>
@@ -13,4 +13,4 @@ License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Imports: dplyr (>= 1.0.9)
-
+RoxygenNote: 7.2.1
