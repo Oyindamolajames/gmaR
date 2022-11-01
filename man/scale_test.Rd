@@ -4,7 +4,7 @@
 \alias{scale_test}
 \title{Scaling Test (A, B, C, or D)}
 \usage{
-scale_test()
+scale_test(data, generation, trait)
 }
 \arguments{
 \item{data}{A data frame that contains the generation column and trait column.}
