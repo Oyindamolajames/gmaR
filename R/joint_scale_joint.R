@@ -1,5 +1,5 @@
 #' Joint Scaling Test
-#'
+#' computes m, d and h genetic parameters
 #' @param data A data frame that contains the generation column and trait column.
 #' @param
 #' @param generation A vector that contains the generations.

@@ -1,4 +1,4 @@
-#' Scaling Test (A, B, C, or D)
+#' Scaling Test: computes A, B, C, and D Scaling Test
 #'
 #' @param data A data frame that contains the generation column and trait column.
 #' @param

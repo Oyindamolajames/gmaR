@@ -2,7 +2,7 @@
 % Please edit documentation in R/scale_test.R
 \name{scale_test}
 \alias{scale_test}
-\title{Scaling Test (A, B, C, or D)}
+\title{Scaling Test: computes A, B, C, and D Scaling Test}
 \usage{
 scale_test(data, generation, trait)
 }
@@ -18,7 +18,7 @@ A data frame that summarizes the number of observations, mean, mean
 of variance, model.
 }
 \description{
-Scaling Test (A, B, C, or D)
+Scaling Test: computes A, B, C, and D Scaling Test
 }
 \examples{
 scale_test(data, test="A", generation, trait)
