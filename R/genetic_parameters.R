@@ -8,7 +8,7 @@
 #' get_summary(data, generation, trait)
 
 
-gentic_parameters <- function(data, generation, trait){
+genetic_parameters <- function(data, generation, trait){
   result <- data %>%
     group_by(.data[[generation]]) %>%
     summarize(n = n() , mean = mean(.data[[trait]]), variance = var(.data[[trait]])) %>%
