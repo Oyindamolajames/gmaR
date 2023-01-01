@@ -134,8 +134,10 @@ scale_test <- function(data, generation, trait){
   }
   y <-  tibble(
     "Scaling Test" = c("A", "B", "C", "D"),
-    T_Value = c(round(ta,4), round(tb, 4), round(tc, 4), round(td, 4)),
-    Significance = c(sta, stb, stc, std),
+    "Parameter" = c(A,B,C,D),
+    "S.E" = c(Sea,Seb,Sec,Sed),
+    "T_Value" = c(round(ta,4), round(tb, 4), round(tc, 4), round(td, 4)),
+    "Sig" = c(sta, stb, stc, std),
     comment = c(ta1, tb1, tc1, td1)
   )
 
