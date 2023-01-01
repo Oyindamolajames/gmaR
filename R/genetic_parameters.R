@@ -52,14 +52,15 @@ genetic_parameters <- function(data, generation, trait){
     pull(mean)
 
 
+
   #Heritability
   VE <- (vp1 + vp2 + (vf1 * 2)) / 4
   VG <- vf2 - VE
   VP <- VE + VG
   VD <- 4 * (vbc1 + vbc2 - vf2 - VE)
   VA <- 2 * (vf2 - (0.25 * VD) - VE)
-  HB <- ((0.5 * VA) + (0.25 * VD) / (0.5 * VA) + (0.25 * VD) + VE)
-  HN <- ((0.5 * VA) / (0.5 * VA) + (0.25 * VD) + VE)
+  HB <- (vf2 - VE) / vf2 *100
+  HN <- ((0.5 * VA) / ((0.5 * VA) + (0.25 * VD) + VE)) * 100
   ht <- mf1-((mp1+mp2)/2)
   pcv <- sqrt(VG+VE)/mean_trait *100
   gcv <- sqrt(VG)/mean_trait *100
